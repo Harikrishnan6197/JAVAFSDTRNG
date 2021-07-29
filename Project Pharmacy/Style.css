@@ -1,0 +1,26 @@
+
+@charset "ISO-8859-1";
+table{
+	width:800px;
+	border-spacing:40px;
+}
+th{
+	text-align:left;
+}
+table,th,td{
+	border:1px solid #000;
+	border-collapse:collapse;
+}
+th,td{
+	border:1px solid #000;
+	border-collapse: collapse;
+}
+th,td{
+	padding:30px
+}
+tr:nth-child(even){
+	background-color:#fff;
+}
+tr:nth-child(odd){
+	background-color:#3498db;
+}
